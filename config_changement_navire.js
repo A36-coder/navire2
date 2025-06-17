@@ -1,9 +1,9 @@
 // config_changement_navire.js
 
-// Préfixes pour les appareils spécifiques au navire
+// Préfixes pour les appareils spécifiques au navire MODIFIEZ SI NOUVEAU NAVIRE
 const PREFIXES = {
-  APPAREIL_PREFIX: 'A36-',
-  CABLE_PREFIX: 'A36-C-'
+  APPAREIL_PREFIX: '',
+  CABLE_PREFIX: ''
 };
 
 // Lien pour télécharger le fichier NEC spécifique au navire
@@ -11,9 +11,9 @@ const LINKS = {
   NEC_DOWNLOAD: 'https://share.chantiers-atlantique.com/share/page/repository#filter=path%7C%2FChantiers%2520de%2520l%2527Atlantique%2FConception%2520G%25E9n%25E9rale%2520et%2520D%25E9taill%25E9e%2F03%2520METIERS%2F4%2520Electricit%25E9%2F02%2520-%2520Supports%2FBDEL%2520-%2520IELEC%2520%2528extraction%2520donn%25E9es%2529%2FBord%7C&page=1'
 };
 
-// Nom du navire
+// Nom du navire MODIFIEZ SI NOUVEAU NAVIRE
 const SHIP = {
-  NAME: 'A36'
+  NAME: 'E35'
 };
 
 // Colonnes à utiliser dans les différentes pages
