@@ -8,7 +8,7 @@ const PREFIXES = {
 
 // Lien pour télécharger le fichier NEC spécifique au navire
 const LINKS = {
-  NEC_DOWNLOAD: 'https://share.chantiers-atlantique.com/share/proxy/alfresco/slingshot/node/content/workspace/SpacesStore/a07b362b-bbf9-4c2d-8953-043584538638/Extraction_NEC_A36.xlsx?a=true'
+  NEC_DOWNLOAD: 'https://share.chantiers-atlantique.com/share/page/repository#filter=path%7C%2FChantiers%2520de%2520l%2527Atlantique%2FConception%2520G%25E9n%25E9rale%2520et%2520D%25E9taill%25E9e%2F03%2520METIERS%2F4%2520Electricit%25E9%2F02%2520-%2520Supports%2FBDEL%2520-%2520IELEC%2520%2528extraction%2520donn%25E9es%2529%2FBord%7C&page=1'
 };
 
 // Nom du navire
