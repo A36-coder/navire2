@@ -381,6 +381,7 @@ function setLoadingMessage(msg) {
 
 // Initialisation des pages
 document.addEventListener('DOMContentLoaded', function() {
+    updateShipName();
   if (document.getElementById("fileInput")) {
     document.getElementById("fileInput").addEventListener("change", handleFile);
     document.getElementById("downloadAllBtn").addEventListener("click", downloadAllAsZip);
