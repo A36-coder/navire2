@@ -8,6 +8,15 @@ let devices = [];
 const COLS = window.COLUMNS;
 const strip = s => String(s || "").replace(new RegExp(`^${window.PREFIXES.APPAREIL_PREFIX}`, 'i'), "").toUpperCase();
 
+
+function updateShipName() {
+  const shipNameElements = document.querySelectorAll('#shipName');
+  shipNameElements.forEach(element => {
+    element.textContent = SHIP.NAME;
+  });
+}
+
+
 // Fonctions pour la page generate.html
 function handleFile(e) {
   const file = e.target.files[0];
